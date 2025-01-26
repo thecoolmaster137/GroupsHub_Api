@@ -91,20 +91,11 @@ builder.Services.AddCors(options =>
         .WithOrigins(
             "http://localhost:5173",
             "http://localhost:5174",
-            "http://93.127.166.134:5000",
-            "http://93.127.166.134:5001",
-            "https://groupgodown.com",
-            "https://www.groupgodown.com",
-            "https://admin.groupgodown.com",
-            "https://www.admin.groupgodown.com",
-            "https://admin.groupgodown.com",
-            "http://groupgodown.com",
-            "http://www.groupgodown.com",
-            "http://admin.groupgodown.com",
-            "http://www.admin.groupgodown.com",
-            "http://admin.groupgodown.com",
-            "https://group-godown-user-frontend.vercel.app",
-            "https://group-godown-admin-frontend.vercel.app"
+            
+            "https://groupshub-userfrontend.onrender.com",
+            "https://www.groupshub-userfrontend.onrender.com",
+            "http://groupshub-userfrontend.onrender.com",
+            "http://www.groupshub-userfrontend.onrender.com"
         )
         .AllowAnyMethod()
         .AllowAnyHeader()
